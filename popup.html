@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Scraper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Email Scraper</h1>
+
+  <div id="progress-box">
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <span id="progress-text">0%</span>
+  </div>
+
+  <textarea id="email-box" placeholder="Scraped emails will appear here..." readonly></textarea>
+
+  <div id="controls">
+    <button id="start-btn">Start Scraping</button>
+    <button id="stop-btn">Stop</button>
+    <button id="copy-btn">Copy</button>
+    <button id="clear-btn">Clear</button>
+    <button id="export-btn">Export as CSV</button>
+  </div>
+
+  <footer>
+    <p>Developed by <a href="https://bit.ly/hiolad" target="_blank">Ahmed Olusanya</a></p>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#progress-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#progress-bar {
+  width: 80%;
+  height: 20px;
+}
+
+#progress-text {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+#email-box {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  resize: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#controls button {
+  width: 48%;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background-color: #0056b3;
+}
+
+#stop-btn {
+  background-color: #dc3545;
+}
+
+#stop-btn:hover {
+  background-color: #c82333;
+}
+
+#clear-btn {
+  background-color: #6c757d;
+}
+
+#clear-btn:hover {
+  background-color: #5a6268;
+}
+
+#email-box {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  overflow-y: auto;
+}
+
